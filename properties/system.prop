@@ -16,6 +16,9 @@ persist.sys.brightness.low.gamma=true
 # Charger
 ro.charger.enable_suspend=1
 
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
+
 # CNE
 persist.vendor.cne.feature=1
 
