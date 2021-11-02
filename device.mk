@@ -404,6 +404,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare@1.0-service.nothing
 
+# Preopt SystemUI    
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson
