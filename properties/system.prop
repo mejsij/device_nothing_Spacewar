@@ -37,6 +37,7 @@ ro.launcher.blur.appLaunch=0
 debug.sf.enable_hwc_vds=1
 persist.sys.sf.native_mode=260
 persist.sys.sf.color_mode=0
+debug.force_no_blanking=true
 
 # Fingerprint
 ro.bootloader.locked=0
