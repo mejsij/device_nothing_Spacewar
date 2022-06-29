@@ -66,7 +66,9 @@ PRODUCT_PACKAGES += \
 
 # Art
 PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.dex2oat64.enabled=true
+    dalvik.vm.dex2oat64.enabled=true \
+    dalvik.vm.minidebuginfo=false \
+    dalvik.vm.dex2oat-minidebuginfo=false
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
