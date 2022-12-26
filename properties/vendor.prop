@@ -120,9 +120,6 @@ debug.sf.enable_egl_image_tracker=1
 persist.vendor.dpm.idletimer.mode=default
 persist.vendor.dpmhalservice.enable=1
 
-# FRP
-ro.frp.pst=/dev/block/bootdevice/by-name/frp
-
 # Gatekeeper
 vendor.gatekeeper.disable_spu=true
 
