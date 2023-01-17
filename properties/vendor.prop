@@ -109,6 +109,7 @@ vendor.display.disable_scaler=0
 vendor.display.enable_async_powermode=0
 vendor.display.enable_early_wakeup=1
 vendor.display.enable_hdr10_gpu_target=1
+vendor.display.enable_async_powermode=1
 vendor.display.enable_optimize_refresh=1
 vendor.display.use_smooth_motion=1
 vendor.gralloc.disable_ubwc=0
