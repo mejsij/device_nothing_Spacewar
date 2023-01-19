@@ -94,6 +94,9 @@ BOARD_USES_ALSA_AUDIO := true
 # Camera
 TARGET_USES_NOTHING_CAMERA := true
 
+# Camera
+TARGET_USES_NOTHING_CAMERA := true
+
 # Display
 SOONG_CONFIG_qtidisplay_udfps := true
 TARGET_SCREEN_DENSITY := 420
