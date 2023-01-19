@@ -100,3 +100,6 @@ ro.vendor.qti.va_aosp.support=1
 
 # WiFi Display
 persist.debug.wfd.enable=1
+
+# Spark mainainer
+ro.spark.maintainer=Mejsi

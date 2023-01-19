@@ -20,10 +20,10 @@ $(call inherit-product, vendor/nothing/camera/nothing-camera.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-# RRO (pixys)
+# RRO (spark)
 PRODUCT_PACKAGES += \
-    PixysFrameworksSpacewar \
-    PixysSystemUISpacewar
+    SparkFrameworksSpacewar \
+    SparkSystemUISpacewar
 
 # RRO (Spacewar)
 PRODUCT_PACKAGES += \
@@ -259,7 +259,7 @@ PRODUCT_PACKAGES += \
 
 # Glyph
 PRODUCT_PACKAGES += \
-    PixysGlyph
+    ParanoidGlyph
 
 # GPS
 PRODUCT_PACKAGES += \
