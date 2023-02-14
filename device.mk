@@ -26,7 +26,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 # RRO (spark)
 PRODUCT_PACKAGES += \
     SparkFrameworksSpacewar \
-    SparkSystemUISpacewar
+    SparkSystemUISpacewar \
+    BoostFrameworkOverlay
 
 # RRO (Spacewar)
 PRODUCT_PACKAGES += \
