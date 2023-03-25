@@ -758,7 +758,7 @@
     <bool name="doze_proximity_sensor_supported">false</bool>
 
     <!-- Pocket Lock -->
-    <bool name="config_pocketModeSupported">false</bool>
+    <bool name="config_pocketModeSupported">true</bool>
 
     <!-- Colon separated list of package names that should be granted Notification Listener access -->
     <string name="config_defaultListenerAccessPackages" translatable="false">co.aospa.glyph</string>
