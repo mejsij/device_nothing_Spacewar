@@ -25,8 +25,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # RRO (pixys)
 PRODUCT_PACKAGES += \
-    PixysFrameworksSpacewar \
-    PixysSystemUISpacewar \
+    LineageFrameworksSpacewar \
+    LineageSystemUISpacewar \
     BoostFrameworkOverlay
 
 # RRO (Spacewar)
@@ -269,7 +269,7 @@ PRODUCT_PACKAGES += \
 
 # Glyph
 PRODUCT_PACKAGES += \
-    PixysGlyph
+    ParanoidGlyph
 
 # GPS
 PRODUCT_PACKAGES += \
