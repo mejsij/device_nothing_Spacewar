@@ -41,6 +41,7 @@ TARGET_INCLUDE_MATLOG := false
 TARGET_USE_GRAPHENE_CAMERA := false
 TARGET_USE_PIXEL_LAUNCHER := false
 ALPHA_MAINTAINER := Mejsi
+WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_Spacewar
