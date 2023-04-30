@@ -85,6 +85,11 @@ persist.dbg.volte_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 
+# Radio VoNR
+persist.radio.is_vonr_enabled_0=true
+persist.radio.is_vonr_enabled_1=true
+persist.vendor.vonr_setting_support=1
+
 # RmNet
 persist.rmnet.data.enable=true
 persist.data.wda.enable=true
