@@ -771,4 +771,7 @@
     <!-- If an any motion sensor is not available, prefer the wrist tilt detector over the
      SMD. -->
     <bool name="config_autoPowerModePreferWristTilt">true</bool>
+
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
 </resources>
