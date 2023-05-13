@@ -25,9 +25,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# v4afx
-$(call inherit-product, vendor/v4afx/config.mk)
-
 # Spacewar Properties
 TARGET_ENABLE_BLUR := true
 TARGET_EXCLUDES_AUDIOFX := true
