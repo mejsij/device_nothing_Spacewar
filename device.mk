@@ -153,6 +153,10 @@ PRODUCT_PACKAGES += \
     libhdmiedid \
     libhfp \
     libldnhncr \
+    liblhdc \
+    liblhdcBT_enc \
+    liblhdcv5 \
+    liblhdcv5BT_enc \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
