@@ -388,6 +388,9 @@ PRODUCT_PACKAGES += \
     libpsi.vendor \
     libtflite
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
+
 # Perf Jars
 PRODUCT_BOOT_JARS += \
     QPerformance \
