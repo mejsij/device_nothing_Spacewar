@@ -101,17 +101,7 @@ persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-
 persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true
 persist.vendor.qcom.bluetooth.aptxadaptiver2_1_support=true
 ro.bluetooth.a2dp_offload.supported=true
-<<<<<<< HEAD:properties/vendor.prop
 bluetooth.device.default_name=Nothing Phone (1)
-=======
-persist.bluetooth.sbc_hd_higher_bitrate=1
-
-# Camera
-vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.challegram
-
-# Chipset
-ro.soc.manufacturer=Qualcomm
->>>>>>> 03e6598 (Spacewar: Enhance audio quality):vendor.prop
 
 # Crypto
 ro.crypto.dm_default_key.options_format.version=2
@@ -123,7 +113,6 @@ vendor.display.disable_excl_rect=0
 vendor.display.disable_excl_rect_partial_fb=1
 vendor.display.disable_offline_rotator=1
 vendor.display.disable_scaler=0
-vendor.display.enable_async_powermode=0
 vendor.display.enable_early_wakeup=1
 vendor.display.enable_hdr10_gpu_target=1
 vendor.display.enable_async_powermode=1
