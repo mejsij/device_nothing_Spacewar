@@ -716,10 +716,10 @@
     <bool name="config_enableHapticTextHandle">true</bool>
 
     <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
-    <string name="config_dozeUdfpsLongPressSensorType" translatable="false">com.pixys.sensor.udfps</string>
+    <string name="config_dozeUdfpsLongPressSensorType" translatable="false">com.lineageos.sensor.udfps</string>
 
     <!-- Type of the tap sensor. Empty if tap is not supported. -->
-    <string name="config_dozeTapSensorType" translatable="false">com.pixys.sensor.single_tap</string>
+    <string name="config_dozeTapSensorType" translatable="false">com.lineageos.sensor.single_tap</string>
 
     <!-- Power Management: Specifies whether to decouple the interactive state of the
          device from the display on/off state.
