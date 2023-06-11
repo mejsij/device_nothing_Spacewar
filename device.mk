@@ -26,8 +26,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 # RRO (pixys)
 PRODUCT_PACKAGES += \
     LineageFrameworksSpacewar \
-    LineageSystemUISpacewar \
-    BoostFrameworkOverlay
+    LineageSystemUISpacewar
 
 # RRO (Spacewar)
 PRODUCT_PACKAGES += \
@@ -393,11 +392,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
-
-# Perf Jars
-PRODUCT_BOOT_JARS += \
-    QPerformance \
-    UxPerformance
 
 # IRQ balance config
 PRODUCT_COPY_FILES += \
