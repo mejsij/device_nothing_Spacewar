@@ -18,5 +18,8 @@
         <item>com.android.camera</item>
         <item>org.lineageos.aperture</item>
         <item>com.nothing.camera</item>
-    </string-array>    
+    </string-array> 
+    
+    <!-- Whether to use Richtap vibration -->
+    <bool name="config_usesRichtapVibration">true</bool>   
 </resources>
