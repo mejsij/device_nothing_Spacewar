@@ -23,10 +23,11 @@ $(call inherit-product, vendor/nothing/camera/nothing-camera.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-# RRO (pixys)
+# RRO (lineage)
 PRODUCT_PACKAGES += \
     LineageFrameworksSpacewar \
-    LineageSystemUISpacewar
+    LineageSystemUISpacewar \
+    LineagePackages
 
 # RRO (Spacewar)
 PRODUCT_PACKAGES += \
@@ -36,12 +37,12 @@ PRODUCT_PACKAGES += \
     SpacewarSettings \
     SpacewarSystemUI \
     SpacewarTelephony \
+    SpacewarNfc \
     WifiResCommon
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    vendor/nxp/nfc \
     vendor/qcom/opensource/usb/etc
 
 # A/B
