@@ -43,6 +43,7 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    vendor/nxp/nfc \
     vendor/qcom/opensource/usb/etc
 
 # A/B
@@ -366,12 +367,10 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    Tag \
-    android.hardware.nfc@1.2-service
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/libnfc-nci.conf \
-    $(LOCAL_PATH)/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf 
+    android.hardware.nfc@1.2-service.pn8x \
+    NfcNci \
+    SecureElement \
+    Tag
 
 # OMX
 PRODUCT_PACKAGES += \
