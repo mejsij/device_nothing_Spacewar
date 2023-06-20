@@ -19,6 +19,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 # NT Camera
 $(call inherit-product, vendor/nothing/camera/nothing-camera.mk)
 
+# Firmware 
+$(call inherit-product, vendor/nothing/firmware/Android.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
