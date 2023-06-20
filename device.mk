@@ -26,8 +26,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 # RRO (lineage)
 PRODUCT_PACKAGES += \
     LineageFrameworksSpacewar \
-    LineageSystemUISpacewar \
-    LineagePackages
+    LineageSystemUISpacewar
 
 # RRO (Spacewar)
 PRODUCT_PACKAGES += \
