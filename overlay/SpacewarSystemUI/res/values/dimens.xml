@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Allow CornerHandleView and PathSpecCornerPathRenderer to decouple from corner-radius -->
-    <dimen name="config_rounded_mask_size">156px</dimen>
+    <dimen name="config_rounded_mask_size">107px</dimen>
 
     <!-- The padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">0px</dimen>
@@ -28,4 +28,8 @@
     <!-- Location on the screen of the center of the physical volume up/down buttons. -->
     <dimen name="physical_volume_up_button_center_screen_location_y">840px</dimen>
     <dimen name="physical_volume_down_button_center_screen_location_y">990px</dimen>
+
+    <!-- Default device corner radius, used for assist UI -->
+    <dimen name="config_rounded_mask_size_top">107px</dimen>
+    <dimen name="config_rounded_mask_size_bottom">107px</dimen>
 </resources>
