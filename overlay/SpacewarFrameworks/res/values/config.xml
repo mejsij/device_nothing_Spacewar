@@ -795,4 +795,7 @@
      <!-- The maximum range of gamma adjustment possible using the screen
      auto-brightness adjustment setting. -->
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">150%</fraction>
+
+    <!-- the number of the max cached processes in the system. -->
+    <integer name="config_customizedMaxCachedProcesses">64</integer>
 </resources>
